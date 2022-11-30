@@ -1,0 +1,83 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "db-example",
+      "table_name": "example",
+      "schema": {
+        "properties": {
+          "INDEXES": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "HEIGHT": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "WEIGHT": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "example",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "db",
+            "row-count": 71,
+            "is-view": false,
+            "table-key-properties": [],
+            "selected": true,
+            "replication-method": "INCREMENTAL",
+            "replication-key": "INDEXES"
+
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "INDEXES"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HEIGHT"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "WEIGHT"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        }
+      ]
+    }
+  ]
+}
